@@ -1,0 +1,37 @@
+.tForms {
+
+  .form-group {
+    padding-top: 5px;
+
+  }
+  .control-label {
+    font-family: tahaTitr;
+  }
+
+  .form-control {
+    font-family: tahaTitr;
+  }
+
+  .help-block {
+    font-family: tahaNormal;
+    font-size: 9px;
+  }
+
+  .form-ps {
+    font-family: tahaNormal;
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .form-feed {
+    font-family: tahaNormal;
+    text-align: right;
+    display: none;
+    font-size: 11px;
+    line-height: 2.0;
+  }
+
+  .ltr {
+    direction: ltr;
+  }
+}

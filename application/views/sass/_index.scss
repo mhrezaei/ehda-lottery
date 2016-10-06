@@ -1,0 +1,91 @@
+* {
+}
+
+img.bg {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  z-index: -10;
+  top: 0;
+//  opacity: 0.2;
+}
+
+div.bg {
+  top: 50px;
+  right: 100px;
+  position: fixed;
+  z-index: -5;
+  opacity: 0.8;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+div.content {
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  padding: 10px;
+  .line1 {
+    font-family: tahaNormal;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 20px;
+  }
+  .line2 {
+    font-family: tahaNormal;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  .digits {
+    margin:10px auto;
+    font-size: 100px;
+    font-weight: bold;
+    width: 680px;
+    margin-top: 50px;
+
+    .digit {
+      font-family: tahaTitr;
+      width: 200px;
+      text-align: center;
+      border: 3px crimson solid;
+      color: crimson;
+      margin: 0 10px;
+      text-shadow: gray 5px 5px;
+      box-shadow: gray 5px 5px;
+      background-color: #ffffff;
+    }
+  }
+
+  .result-name {
+    background-color: #FD795B;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 1000px;
+    font-size: 40px;
+
+  }
+  .result-buttons {
+    font-size: 20px;
+
+    .fa {
+      cursor: pointer;
+    }
+  }
+
+  #txtInput {
+    direction: ltr;
+    text-align: left;
+    position: fixed;
+    border: 0;
+    left: 0;
+    bottom: 0;
+    background: transparent;
+    outline: 0;
+    color: #9fa33c;
+  }
+}

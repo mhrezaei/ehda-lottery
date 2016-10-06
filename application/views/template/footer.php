@@ -1,0 +1,3 @@
+<?php
+	thtml_closer();
+?>

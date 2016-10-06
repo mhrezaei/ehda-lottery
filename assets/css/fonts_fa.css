@@ -1,0 +1,38 @@
+@font-face{
+    font-family:'tahaNormal';
+    src:url("../fonts/IRANSans.woff") format("woff");
+    font-weight:normal;
+    font-style:normal
+}
+
+@font-face{
+    font-family:'tahaNormal';
+    src:url("../fonts/IRANSans-Bold.woff") format("woff");
+    font-weight:bold;
+    font-style:normal
+}
+
+@font-face{
+    font-family:'tahaNormal';
+    src:url("../fonts/IRANSans-Light.woff") format("woff");
+    font-weight:100;
+    font-style:normal
+}
+
+
+@font-face {
+    font-family: 'tahaTitr';
+    src:  url('../fonts/YekanWeb-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'tahaTitr';
+    src:  url('../fonts/YekanWeb-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+

@@ -1,0 +1,251 @@
+* {
+  font-family: "tahaNormal"; }
+
+.btn, .modal-title, h1 {
+  font-family: "tahaTitr"; }
+
+.w70 {
+  width: 70%; }
+
+.w75 {
+  width: 75%; }
+
+.w80 {
+  width: 80%; }
+
+.w85 {
+  width: 85%; }
+
+.w90 {
+  width: 90%; }
+
+.w95 {
+  width: 95%; }
+
+.w100 {
+  width: 100%; }
+
+.ph5, .p5 {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.pv5, .p5 {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.mh5, .m5 {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.mv5, .m5 {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+.ph10, .p10 {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.pv10, .p10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.mh10, .m10 {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.mv10, .m10 {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.ph15, .p15 {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.pv15, .p15 {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.mh15, .m15 {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.mv15, .m15 {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.ph20, .p20 {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.pv20, .p20 {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.mh20, .m20 {
+  padding-left: 20px;
+  padding-right: 20px; }
+
+.mv20, .m20 {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+.text-center {
+  text-align: center; }
+
+.col {
+  display: table-column;
+  vertical-align: middle; }
+
+@font-face {
+  font-family: 'WMitra';
+  src: url("../fonts/MitraWeb-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'WMitra';
+  src: url("../fonts/MitraWeb-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'WRoya';
+  src: url("../fonts/RoyaWeb-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'WRoya';
+  src: url("../fonts/RoyaWeb-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'tahaNormal';
+  src: url("../fonts/IRANSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'tahaNormal';
+  src: url("../fonts/IRANSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'tahaNormal';
+  src: url("../fonts/IRANSans-Light.woff") format("woff");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: 'tahaTitr';
+  src: url("../fonts/YekanWeb-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'tahaTitr';
+  src: url("../fonts/YekanWeb-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'koodak';
+  src: url("../fonts/bkoodakbold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+/*
+@font-face {
+	font-family: "koodak";
+	src: local("B koodak"),
+	url('../fonts/bkoodakbold.woff') format('woff'),
+	url('../fonts/bkoodakbold.eot?#') format('eot'),
+	url('../fonts/bkoodakbold.ttf') format('truetype');
+}
+*/
+img.bg {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  z-index: -10;
+  top: 0; }
+
+div.bg {
+  top: 50px;
+  right: 100px;
+  position: fixed;
+  z-index: -5;
+  opacity: 0.8;
+  background-color: #ffffff;
+  border-radius: 20px; }
+
+div.content {
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  padding: 10px; }
+  div.content .line1 {
+    font-family: tahaNormal;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 20px; }
+  div.content .line2 {
+    font-family: tahaNormal;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px; }
+  div.content .digits {
+    margin: 10px auto;
+    font-size: 100px;
+    font-weight: bold;
+    width: 680px;
+    margin-top: 50px; }
+    div.content .digits .digit {
+      font-family: tahaTitr;
+      width: 200px;
+      text-align: center;
+      border: 3px crimson solid;
+      color: crimson;
+      margin: 0 10px;
+      text-shadow: gray 5px 5px;
+      box-shadow: gray 5px 5px;
+      background-color: #ffffff; }
+  div.content .result-name {
+    background-color: #FD795B;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px auto;
+    width: 1000px;
+    font-size: 40px; }
+  div.content .result-buttons {
+    font-size: 20px; }
+    div.content .result-buttons .fa {
+      cursor: pointer; }
+  div.content #txtInput {
+    direction: ltr;
+    text-align: left;
+    position: fixed;
+    border: 0;
+    left: 0;
+    bottom: 0;
+    background: transparent;
+    outline: 0;
+    color: #9fa33c; }
+
+.tForms .form-group {
+  padding-top: 5px; }
+.tForms .control-label {
+  font-family: tahaTitr; }
+.tForms .form-control {
+  font-family: tahaTitr; }
+.tForms .help-block {
+  font-family: tahaNormal;
+  font-size: 9px; }
+.tForms .form-ps {
+  font-family: tahaNormal;
+  font-size: 12px;
+  padding: 5px; }
+.tForms .form-feed {
+  font-family: tahaNormal;
+  text-align: right;
+  display: none;
+  font-size: 11px;
+  line-height: 2.0; }
+.tForms .ltr {
+  direction: ltr; }
+
+/*# sourceMappingURL=home.css.map */
